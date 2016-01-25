@@ -1,0 +1,118 @@
+Hydrogen:H:1:1.008:Metal:Non Metal:-259:-253
+Helium:He:2:4.003:Non Metal:Noble Gas:-272 at 26 atm:-269
+Lithium:Li:3:6.941:Metal:Alkali Metal:181:1347
+Beryllium:Be:4:9.012:Metal:Alkaline Earth Metal:1278:2970
+Boron:B:5:10.811:Metalloid:Metalloid:2300:3658
+Carbon:C:6:12.011:Non Metal:Non Metal:3550:null
+Nitrogen:N:7:14.007:Non Metal:Non Metal:-210:-196
+Oxygen:O:8:15.999:Non Metal:Non Metal:-218:-183
+Fluorine:F:9:18.998:Non Metal:Halogen:-220:-188
+Neon:Ne:10:20.18:Non Metal:Noble Gas:-249:-246
+Sodium:Na:11:22.99:Metal:Alkali Metal:98:883
+Magnesium:Mg:12:24.305:Metal:Alkaline Earth Metal:649:1090
+Aluminum:Al:13:26.982:Metal:Transition Metal:661:2467
+Silicon:Si:14:28.086:Metalloid:Metalloid:1410:2355
+Phosphorus:P:15:30.974:Non Metal:Non Metal:44:280
+Sulfur:S:16:32.066:Non Metal:Non Metal:113:444
+Chlorine:Cl:17:35.453:Non Metal:Halogen:-101:-34
+Argon:Ar:18:39.948:Non Metal:Noble Gas:-189:-186
+Potassium:K:19:39.098:Metal:Alkali Metal:64:774
+Calcium:Ca:20:40.078:Metal:Alkaline Earth Metal:839:1484
+Scandium:Sc:21:44.956:Metal:Transition Metal:1541:2831
+Titanium:Ti:22:47.88:Metal:Transition Metal:1660:3287
+Vanadium:V:23:50.942:Metal:Transition Metal:1887:3377
+Chromium:Cr:24:51.996:Metal:Transition Metal:1860:2672
+Manganese:Mn:25:54.938:Metal:Transition Metal:1244:1962
+Iron:Fe:26:55.847:Metal:Transition Metal:1535:2750
+Cobalt:Co:27:58.933:Metal:Transition Metal:1495:2870
+Nickel:Ni:28:58.693:Metal:Transition Metal:1453:2732
+Copper:Cu:29:63.546:Metal:Transition Metal:1084:2567
+Zinc:Zn:30:65.39:Metal:Transition Metal:420:907
+Gallium:Ga:31:69.723:Metal:Transition Metal:30:2403
+Germanium:Ge:32:72.61:Metalloid:Metalloid:938:2830
+Arsenic:As:33:74.922:Metalloid:Metalloid:null:null
+Selenium:Se:34:78.96:Non Metal:Non Metal:217:685
+Bromine:Br:35:79.904:Non Metal:Halogen:-7:59
+Krypton:Kr:36:83.8:Non Metal:Noble Gas:-157:-52
+Rubidium:Rb:37:85.468:Metal:Alkali Metal:39:688
+Strontium:Sr:38:87.62:Metal:Alkaline Earth Metal:769:1384
+Yttrium:Y:39:88.906:Metal:Transition Metal:1522:3338
+Zirconium:Zr:40:91.224:Metal:Transition Metal:1852:4377
+Niobium:Nb:41:92.906:Metal:Transition Metal:2468:4742
+Molybdenum:Mo:42:95.94:Metal:Transition Metal:2617:4612
+Technetium:Tc:43:97.907:Metal:Transition Metal:2172:4877
+Ruthenium:Ru:44:101.07:Metal:Transition Metal:2310:3900
+Rhodium:Rh:45:102.906:Metal:Transition Metal:1966:3725
+Palladium:Pd:46:106.42:Metal:Transition Metal:1552:3140
+Silver:Ag:47:107.868:Metal:Transition Metal:962:2212
+Cadmium:Cd:48:112.411:Metal:Transition Metal:321:756
+Indium:In:49:114.82:Metal:Transition Metal:156:2080
+Tin:Sn:50:118.71:Metal:Transition Metal:232:2270
+Antimony:Sb:51:121.757:Metalloid:Metalloid:631:1635
+Tellurium:Te:52:127.6:Metalloid:Metalloid:450:990
+Iodine:I:53:126.904:Non Metal:Halogen:114:184 (under pressure)
+Xenon:Xe:54:131.29:Non Metal:Noble Gas:-112:-107
+Cesium:Cs:55:132.905:Metal:Alkali Metal:28:679
+Barium:Ba:56:137.327:Metal:Alkaline Earth Metal:729:1637
+Lanthanum:La:57:138.906:Metal:Lanthanide Series:921:3460
+Cerium:Ce:58:140.115:Metal:Lanthanide Series:799:3426
+Praseodymium:Pr:59:140.908:Metal:Lanthanide Series:931:3510
+Neodymium:Nd:60:144.24:Metal:Lanthanide Series:1021:3070
+Promethium:Pm:61:144.913:Metal:Lanthanide Series:145:1168
+Samarium:Sm:62:150.36:Metal:Lanthanide Series:1077:1790
+Europium:Eu:63:151.965:Metal:Lanthanide Series:822:1597
+Gadolinium:Gd:64:157.25:Metal:Lanthanide Series:1313:3270
+Terbium:Tb:65:158.925:Metal:Lanthanide Series:1356:3120
+Dysprosium:Dy:66:162.5:Metal:Lanthanide Series:1412:2560
+Holmium:Ho:67:164.93:Metal:Lanthanide Series:1474:null
+Erbium:Er:68:167.26:Metal:Lanthanide Series:1529:2860
+Thulium:Tm:69:168.934:Metal:Lanthanide Series:1545:1947
+Ytterbium:Yb:70:173.04:Metal:Lanthanide Series:824:1193
+Lutetium:Lu:71:174.967:Metal:Lanthanide Series:1663:3400
+Hafnium:Hf:72:178.49:Metal:Transition Metal:2230:null
+Tantalum:Ta:73:180.948:Metal:Transition Metal:2996:5425
+Tungsten:W:74:183.84:Metal:Transition Metal:3407:5700
+Rhenium:Re:75:186.207:Metal:Transition Metal:3180:5625
+Osmium:Os:76:190.2:Metal:Transition Metal:3054:5027
+Iridium:Ir:77:192.22:Metal:Transition Metal:2410:4130
+Platinum:Pt:78:195.08:Metal:Transition Metal:1772:approx. 3800
+Gold:Au:79:196.967:Metal:Transition Metal:1064:2807
+Mercury:Hg:80:200.59:Metal:Transition Metal:-39:357
+Thallium:Ti:81:204.383:Metal:Transition Metal:304:1457
+Lead:Pb:82:207.2:Metal:Transition Metal:334:1740
+Bismuth:Bi:83:208.98:Metal:Transition Metal:271:1560
+Polonium:Po:84:208.982:Metalloid:Metalloid:254:962
+Astatine:At:85:209.978:Non Metal:Halogen:300:340
+Radon:Rn:86:222.018:Non Metal:Noble Gas:-71:-62
+Francium:Fr:87:223.02:Metal:Alkali Metal:27:680
+Radium:Ra:88:226.025:Metal:Alkaline Earth Metal:700:1140
+Actinium:Ac:89:227:Metal:Actinide Series:1047:3200
+Thorium:Th:90:232.038:Metal:Actinide Series:1750:about 4800
+Protactinium:Pa:91:231.038:Metal:Actinide Series:1840:about 4000
+Uranium:U:92:238.029:Metal:Actinide Series:1132:3754
+Neptunium:Np:93:237.048:Metal:Actinide Series:640:3902
+Plutonium:Pu:94:244.064:Metal:Actinide Series:640:3330
+Americium:Am:95:243.061:Metal:Actinide Series:994:null
+Curium:Cm:96:247.07:Metal:Actinide Series:1340:null
+Berkelium:Bk:97:247.07:Metal:Actinide Series:1047:null
+Californium:Cf:98:251.08:Metal:Actinide Series:null:null
+Einsteinium:Es:99:252.083:Metal:Actinide Series:860:null
+Fermium:Fm:100:257.095:Metal:Actinide Series:null:null
+Mendelevium:Md:101:258.099:Metal:Actinide Series:710:460
+Nobelium:No:102:259.101:Metal:Actinide Series:760:460
+Lawrencium:Lr:103:262.11:Metal:Actinide Series:810:460
+Rutherfordium:Rf:104:265.12:Metal:Transition Metal:160:310
+Dubnium:Db:105:268.13:Metal:Transition Metal:210:310
+Seaborgium:Sg:106:271.13:Metal:Transition Metal:260:310
+Bohrium:Bh:107:270.0:Metal:Transition Metal:310:310
+Hassium:Hs:108:277.15:Metal:Transition Metal:360:310
+Meitnerium:Mt:109:276.15:Metal:Transition Metal:410:310
+Darmstadtium:Ds:110:281.16:Metal:Transition Metal:460:310
+Roentgenium:Rg:111:280.16:Metal:Transition Metal:510:310
+Copernicium:Cn:112:285.17:Metal:Transition Metal:560:310
+Ununtrium:Uut:113:286.0:Metal:Transition Metal:610:310
+Flerovium:Fl:114:289.19:Metal:Transition Metal:660:310
+Ununpentium:Uup:115:289.0:Metal:Transition Metal:710:310
+Livermorium:Lv:116:293.0:Metal:Transition Metal:760:310
+Ununseptium:Uus:117:294.0:Metal:Transition Metal:810:310
+Ununoctium:Uuo:118:294.0:Metal:Transition Metal:860:310
