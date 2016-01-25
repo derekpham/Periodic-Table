@@ -1,5 +1,5 @@
 /**
- * Displays Credit information
+ * Displays CreditView information
  *
  * @author David St-Pierre
  **/
@@ -8,9 +8,9 @@ package display;
 import javax.swing.*;
 import java.awt.*;
 
-public class Credit extends JFrame
+public class CreditView extends JFrame
 {
-    public Credit()
+    public CreditView()
     {
         Container cp = getContentPane();
         cp.setLayout(new FlowLayout());

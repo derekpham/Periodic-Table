@@ -18,7 +18,7 @@ import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Search extends JFrame
+public class SearchView extends JFrame
 {
 
     private int bNums[];
@@ -28,13 +28,13 @@ public class Search extends JFrame
 
     private JButton buttons[];
 
-    private Conversion c;
+    private ConversionView c;
     private Container cp;
     private Border thinBorder;
 
     private JTextField searchString;
 
-    public Search()
+    public SearchView()
     {
         cp = getContentPane();
         cp.setLayout(new GridLayout(12, 1));
@@ -55,7 +55,7 @@ public class Search extends JFrame
         searchSym.setForeground(Color.BLACK);
         searchSym.setBackground(Color.CYAN);
         searchSym.setBorder(thinBorder);
-        searchSym.setText("Search for an Element Symbol");
+        searchSym.setText("SearchView for an Element Symbol");
         cp.add(searchSym);
         searchSym.addActionListener(new ActionListener()
         {
@@ -70,7 +70,7 @@ public class Search extends JFrame
         searchNa.setForeground(Color.BLACK);
         searchNa.setBackground(Color.CYAN);
         searchNa.setBorder(thinBorder);
-        searchNa.setText("Search for an Element Name");
+        searchNa.setText("SearchView for an Element Name");
         cp.add(searchNa);
         searchNa.addActionListener(new ActionListener()
         {
@@ -87,7 +87,7 @@ public class Search extends JFrame
 
 
         setResizable(false);
-        setTitle("Search");
+        setTitle("SearchView");
         setSize(400, 400);
         setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         setVisible(true);
@@ -104,7 +104,7 @@ public class Search extends JFrame
         });
     }
 
-    public void passConversion(Conversion con)
+    public void passConversion(ConversionView con)
     {
         c = con;
     }
@@ -129,7 +129,7 @@ public class Search extends JFrame
                     {
                         if (bNums[a] == 0)
                             JOptionPane.showMessageDialog(new JFrame(), "That isn't an element", "Info", JOptionPane.INFORMATION_MESSAGE);
-                        else new ElementGUI(bNums[a]);
+                        else new ElementView(bNums[a]);
                     } else if (cnt.getCountConversion() == 1)
                     {
                         if (bNums[a] == 0)

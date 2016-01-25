@@ -10,9 +10,9 @@ import core.PT;
 import javax.swing.*;
 import java.awt.*;
 
-public class ElementGUI extends JFrame
+public class ElementView extends JFrame
 {
-    public ElementGUI(int elementNum)
+    public ElementView(int elementNum)
     {
 
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();

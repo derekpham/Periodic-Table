@@ -1,4 +1,4 @@
-import display.PTGUI;
+import display.PeriodicTableView;
 
 import java.io.IOException;
 
@@ -6,6 +6,6 @@ public class PeriodicTableApp
 {
 
     public static void main(String[] args) throws IOException{
-        PTGUI display = new PTGUI();
+        PeriodicTableView display = new PeriodicTableView();
     }
 }

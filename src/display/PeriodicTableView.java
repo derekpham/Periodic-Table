@@ -14,12 +14,12 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 
-public class PTGUI extends JFrame
+public class PeriodicTableView extends JFrame
 {
 
     private Container cp;
-    private Conversion c;
-    private Search s;
+    private ConversionView c;
+    private SearchView s;
 
     private JMenuBar menuBar;
 
@@ -28,7 +28,7 @@ public class PTGUI extends JFrame
      *
      * @throws IOException
      */
-    public PTGUI() throws IOException
+    public PeriodicTableView() throws IOException
     {
         cp = getContentPane();
         cp.setLayout(null);
@@ -111,7 +111,7 @@ public class PTGUI extends JFrame
                     InstanceCount cnt = new InstanceCount();
                     if (cnt.getCountConversion() == 0)
                     {
-                        new ElementGUI(a);      //Call a window to display specific element information
+                        new ElementView(a);      //Call a window to display specific element information
                     } else if (cnt.getCountConversion() == 1)
                     {
                         c.addText(PT.getElement(a).getSymbol());
@@ -271,7 +271,7 @@ public class PTGUI extends JFrame
         fileMenu.add(quit);
 
         tasksMenu = new JMenu("Tasks");
-        massMoleConversion = new JMenuItem("Mass-Mole Conversion");
+        massMoleConversion = new JMenuItem("Mass-Mole ConversionView");
         massMoleConversion.addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
@@ -281,28 +281,28 @@ public class PTGUI extends JFrame
                     InstanceCount cnt = new InstanceCount();
                     if (cnt.getCountConversion() == 1)
                     { //Error window pop up to be added
-                        JOptionPane.showMessageDialog(new JFrame(), "You can't open more than one window of Unit Conversion", "Warning", JOptionPane.WARNING_MESSAGE);
+                        JOptionPane.showMessageDialog(new JFrame(), "You can't open more than one window of Unit ConversionView", "Warning", JOptionPane.WARNING_MESSAGE);
                     } else if (cnt.getCountConversion() == 0)
                     {
-                        c = new Conversion();
+                        c = new ConversionView();
                         cnt.incrementConversion();
                         if (cnt.getCountSearch() > 0) s.passConversion(c);
-                    } else System.out.println("Conversion window error");
+                    } else System.out.println("ConversionView window error");
                 } catch (Exception IOException)
                 {
-                    System.out.println("IOException in PTGUI.java");
+                    System.out.println("IOException in PeriodicTableView.java");
                 }
             }
         });
 
         tasksMenu.add(massMoleConversion);
 
-        search = new JMenuItem("Search");
+        search = new JMenuItem("SearchView");
         search.addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent e)
             {
-                s = new Search();
+                s = new SearchView();
                 InstanceCount cnt = new InstanceCount();
                 cnt.incrementSearch();
                 if (cnt.getCountConversion() == 1) s.passConversion(c);
@@ -316,7 +316,7 @@ public class PTGUI extends JFrame
         {
             public void actionPerformed(ActionEvent e)
             {
-                new Credit();
+                new CreditView();
             }
         });
         aboutMenu.add(credits);

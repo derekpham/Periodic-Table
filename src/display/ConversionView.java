@@ -1,7 +1,7 @@
 /**
- * Conversion stuff
- * Need to corporate this into PTGUI and somehow
- * makes use of the buttons in PTGUI to put in chemical formula
+ * ConversionView stuff
+ * Need to corporate this into PeriodicTableView and somehow
+ * makes use of the buttons in PeriodicTableView to put in chemical formula
  *
  * @author Derek Pham, David St-Pierre
  **/
@@ -21,7 +21,7 @@ import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.text.DecimalFormat;
 
-public class Conversion extends JFrame
+public class ConversionView extends JFrame
 {
     private Container cp;
     private JLabel formLabel;
@@ -38,7 +38,7 @@ public class Conversion extends JFrame
 
     private boolean view = false;    //Default is to not see the periodic table
 
-    public Conversion() throws IOException
+    public ConversionView() throws IOException
     {
         cp = getContentPane();
         cp.setLayout(new FlowLayout());
@@ -103,13 +103,13 @@ public class Conversion extends JFrame
                     viewTable();
                 } catch (Exception IOException)
                 {
-                    System.out.println("IOExcetipion in Conversion.java");
+                    System.out.println("IOExcetipion in ConversionView.java");
                 }
             }
         });
 
         // right now it is actually just mole-mass conversion
-        setTitle("Unit Conversion");
+        setTitle("Unit ConversionView");
         setSize(1000, 200);
         setResizable(true);
         setVisible(true);
@@ -131,7 +131,7 @@ public class Conversion extends JFrame
     // just for testing
     public static void main(String[] args) throws IOException
     {
-        new Conversion();
+        new ConversionView();
     }
 
     //Makes mini-table visible based on radio box
